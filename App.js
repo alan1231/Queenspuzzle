@@ -65,8 +65,6 @@ export default class HelloWorldApp extends Component {
 
 
   render() {
-    console.log(this.state.queenAry[0])
-
     var Queenspuzzle = []
     for(let i = 0; i < this.state.queenAry[0].length; i ++){
       for(let v = 0; v < this.state.queenAry[0][i].length; v ++){
